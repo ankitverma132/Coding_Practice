@@ -1,5 +1,6 @@
 package com;
 import myPack.*;
+import myPack2.B;
 
 public class Info {
 	public static void main(String args[]){  
@@ -22,6 +23,7 @@ public class Info {
 		
 		
 		A obj=new A();
+		B obj1=new B();
 		  
 		  
 		 }  
