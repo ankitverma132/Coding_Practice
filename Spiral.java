@@ -1,3 +1,7 @@
+Given an N*M 2D array, print it in spiral form. That is, first you need to print the 1st row, 
+then last column, then last row and then first column and so on. Print every element only once.
+
+
 package TwoDArray;
 public class Spiral {
 
@@ -34,39 +38,3 @@ public class Spiral {
             }
 
         }
-//		 int rs=0;
-//       int re=matrix.length-1;
-//       int cs=0;
-//       int ce=matrix[0].length-1;
-//       int i=0;
-//       int j=0;
-      
-//       while(rs<=re){
-//             i=rs;
-//             for(j=cs; j<=ce; j++){                
-//               System.out.print(matrix[i][j] + " ");       
-//             } 
-//           rs++;
-//             j=ce;
-//             for(i=rs+1; i<=re; i++){               
-//               System.out.print(matrix[i][j] + " ");
-                         
-//             }
-//           ce--;
-//             i=re;
-//             for(j=ce-1; j>=cs; j--){                
-//               System.out.print(matrix[i][j] + " ");       
-//             }
-//           re--;
-//             j=cs;
-//             for(i=re-1; i>=rs+1; i--){                
-//               System.out.print(matrix[i][j] + " ");       
-//             }
-//           cs++;
-//           // rs++;
-//           // cs++;
-//           // re--;
-//           // ce--;       
-
-      }
-}
